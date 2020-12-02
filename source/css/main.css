@@ -1,0 +1,555 @@
+@charset "UTF-8";
+/*Обнуление*/
+/* line 2, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 3, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* line 4, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+:focus, :active {
+  outline: none;
+}
+
+/* line 5, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+a:focus, a:active {
+  outline: none;
+}
+
+/* line 6, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+nav, footer, header, aside {
+  display: block;
+}
+
+/* line 7, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 8, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+input, button, textarea {
+  font-family: inherit;
+}
+
+/* line 9, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+input::-ms-clear {
+  display: none;
+}
+
+/* line 10, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 11, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 12, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+a, a:visited {
+  text-decoration: none;
+}
+
+/* line 13, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 14, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 15, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+img {
+  vertical-align: top;
+}
+
+/* line 16, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/* line 19, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+body {
+  margin: 0;
+}
+
+/* line 23, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.container {
+  max-width: 1105px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 29, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.header {
+  background: url(/img/header-photo1.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 57px;
+}
+
+/* line 37, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.header .header__telephone {
+  padding-top: 15px;
+  left: 100%;
+  width: 214px;
+}
+
+/* line 41, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.header .header__telephone a {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #FFFFFF;
+  transition: .3s;
+}
+
+/* line 49, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.header .header__telephone a:hover {
+  opacity: 0.7;
+}
+
+/* line 52, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.header .header__telephone a:active {
+  opacity: 0.5;
+}
+
+/* line 57, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.header .header__title {
+  display: inline-block;
+  margin-top: 360px;
+  text-align: center;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* line 64, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.header .header__title h1 {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 130%;
+}
+
+/* line 69, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.header .header__title h2 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2em;
+}
+
+/* line 79, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section {
+  font-family: Lato;
+  color: #424242;
+}
+
+/* line 82, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section .section__subtitle {
+  margin-top: 54px;
+  margin-bottom: 67px;
+}
+
+/* line 85, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section .section__subtitle p {
+  margin-bottom: 36px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+}
+
+/* line 94, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.title {
+  font-family: Montserrat;
+  color: #000000;
+}
+
+/* line 97, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.title h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 130%;
+  margin-bottom: 9px;
+}
+
+/* line 106, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.vector {
+  margin: 0 auto;
+  width: 145.67px;
+  border: 1px solid #000000;
+  border-radius: 120px;
+}
+
+/* line 113, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-title {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  margin-top: 60px;
+}
+
+/* line 118, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-title .section__card {
+  font-family: Montserrat;
+  width: 475.2px;
+  height: 57.99px;
+  margin-bottom: 30px;
+}
+
+/* line 123, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-title .section__card h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 130%;
+}
+
+/* line 128, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-title .section__card p {
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  color: #424242;
+}
+
+/* line 138, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-one {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+/* line 142, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-one .section__card-video {
+  font-family: Montserrat;
+  width: 540px;
+  height: 381px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+/* line 148, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-one .section__card-video iframe {
+  margin: 0 20px;
+  margin-top: 21px;
+}
+
+/* line 152, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-one .section__card-video h3 {
+  margin: 0 20px;
+  margin-top: 21px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  color: #000000;
+}
+
+/* line 160, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-one .section__card-video p {
+  margin: 0 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 130%;
+}
+
+/* line 169, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 172, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-two .section__card-video {
+  margin-top: 40px;
+  font-family: Montserrat;
+  width: 540px;
+  height: 381px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+/* line 179, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-two .section__card-video iframe {
+  margin: 0 20px;
+  margin-top: 21px;
+}
+
+/* line 183, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-two .section__card-video h3 {
+  margin: 0 20px;
+  margin-top: 21px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  color: #000000;
+}
+
+/* line 191, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.section__cards-two .section__card-video p {
+  margin: 0 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 130%;
+}
+
+/* line 201, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer {
+  margin-top: 87px;
+  background: #1E4776;
+  padding-top: 27px;
+  padding-bottom: 20px;
+}
+
+/* line 206, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer .footer__main {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 210, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer .footer__main .footer__main-title {
+  color: #7E9EC9;
+  max-width: 458.18px;
+}
+
+/* line 213, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer .footer__main .footer__main-title p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 218, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer .footer__main .footer__main-title p:nth-child(2) {
+  margin-top: 19px;
+  line-height: 110%;
+}
+
+/* line 224, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer .footer__main .footer__main-right {
+  color: #7E9EC9;
+  width: 233px;
+}
+
+/* line 227, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer .footer__main .footer__main-right a {
+  display: inline-block;
+  font-weight: 600;
+  color: #7E9EC9;
+  line-height: 110%;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+/* line 235, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer .footer__main .footer__main-right p {
+  font-weight: 600;
+  line-height: 110%;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+/* line 240, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+.footer .footer__main .footer__main-right p:nth-child(4) {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 250, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 256, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .container {
+    width: 960px;
+  }
+  /* line 259, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-one {
+    flex-wrap: wrap;
+    margin: 0 200px;
+  }
+  /* line 263, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-one .section__card-video:nth-child(1) {
+    margin-bottom: 40px;
+    margin-top: 68px;
+  }
+  /* line 269, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-two {
+    flex-wrap: wrap;
+    margin: 0 200px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 276, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .container {
+    width: 720px;
+  }
+  /* line 279, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-title {
+    flex-wrap: wrap;
+    margin: 0 145px;
+    max-width: 800px;
+  }
+  /* line 283, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-title .section__card {
+    margin-bottom: 100px;
+  }
+  /* line 285, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-title .section__card:nth-child(1) {
+    margin-top: 61px;
+  }
+  /* line 290, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-one {
+    margin: 0 115px;
+  }
+  /* line 293, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-two {
+    margin: 0 115px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 299, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .container {
+    width: 540px;
+  }
+  /* line 302, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-title {
+    max-width: 85%;
+    margin: 0 100px;
+  }
+  /* line 306, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-one {
+    margin-left: 10px;
+  }
+  /* line 309, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-two {
+    margin-left: 10px;
+  }
+  /* line 312, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .footer__main {
+    max-width: 90%;
+  }
+  /* line 315, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__subtitle {
+    max-width: 85%;
+    margin: 0 45px;
+  }
+  /* line 319, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .title {
+    margin: 0 30px;
+  }
+  /* line 321, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .title h2 {
+    max-width: 80%;
+  }
+  /* line 324, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .title .vector {
+    max-width: 80%;
+    margin: 0 130px;
+  }
+  /* line 329, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .footer__main {
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 50px;
+  }
+  /* line 333, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .footer__main img {
+    margin: 0 150px;
+    margin-bottom: 20px;
+  }
+  /* line 337, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .footer__main .footer__main-right {
+    margin: 0 100px;
+    margin-top: 20px;
+  }
+  /* line 343, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-title {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 349, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  /* line 353, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .header .header__title h1 {
+    font-size: 40px;
+    margin: 0 10px;
+  }
+  /* line 357, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-one {
+    margin: 0 50px;
+  }
+  /* line 360, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__cards-two {
+    margin: 0 50px;
+  }
+  /* line 363, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__card-video {
+    min-width: 90%;
+  }
+  /* line 365, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .section__card-video iframe {
+    max-width: 90%;
+  }
+  /* line 369, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .title h2 {
+    font-size: 32px;
+  }
+  /* line 372, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .title .vector {
+    margin: 0 105px;
+  }
+  /* line 375, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .footer__main {
+    margin: 0 20px;
+  }
+  /* line 377, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .footer__main img {
+    margin: 0 100px;
+    margin-bottom: 20px;
+  }
+  /* line 381, ../../../../OneDrive/Рабочий стол/NEW-MILLENNIUM/source/scss/main.scss */
+  .footer__main .footer__main-right {
+    margin: 0 100px;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
